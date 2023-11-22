@@ -1,0 +1,38 @@
+    <header>
+        <h1>Centro Médico Salud y Vida</h1>
+    </header>
+    <main>
+        <h2>listado medico</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>nombres</th>
+                    <th>apellidos</th>
+                    <th>Cedula</th>
+                    <th>Consultorio</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Especialidad</th>
+                </tr> 
+            </thead>
+            <tbody >
+                {{#each resultado}}
+                <tr>
+                    <td>{{nombre}}</td>
+                    <td>{{apellido}}</td>
+                    <td>{{cedula}}</td>
+                    <td>{{consultorio}}</td>
+                    <td>{{telefono}}</td>
+                    <td>{{correo}}</td>
+                    <td>{{especialidad}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <a href="../index.html"><input type="submit" value="volver"></a>
+    </main>
+    <footer> 
+        <h2>Elaborado por:</h2>
+        <p>ANGIE PINTO</p>
+        <p>Contacto 3227438819, Bogota D,C.</p>
+    </footer>

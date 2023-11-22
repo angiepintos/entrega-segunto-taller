@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro paciente</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Médico Salud y Vida</h1>
+    </header>
+    <main>
+        <h2>Registro paciente</h2>
+        <div class="container-form">
+            <form method="post" action="/agregar-paciente">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+                <label for="Apellidos"> Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="cedula"> Cedula:</label>
+                <input type="number" id="cedula" name="cedula" required>
+                <label for="fecha_nacimiento">fecha nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono"required>
+                <input type="submit" value="enviar">
+            </form>
+            <a href="../index.html"><input type="button" value="volver"></a>        
+        </div> 
+    </main>
+    <footer> 
+        <h2>Elaborado por:</h2>
+        <p>ANGIE PINTO</p>
+        <p>Contacto 3227438819, Bogota D,C.</p>
+    </footer>
+</html>
